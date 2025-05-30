@@ -1,4 +1,4 @@
-# 한글 음절 TTS 생성기 | Korean Hangul Syllable TTS Generator
+# 11172개 한글 음절 TTS 생성기 | 11172 Korean Hangul Syllable TTS Generator
 
 🎤 **모든 한글 음절의 음성 합성 도구**  
 🔊 **Text-to-Speech Generator for All Korean Hangul Syllables**
@@ -17,11 +17,11 @@
 
 ### 📝 프로젝트 개요
 
-이 프로젝트는 **모든 한국어 한글 음절(11,172개, 겹받침 포함)**에 대한 TTS(Text-to-Speech) 오디오 파일을 생성하는 웹 애플리케이션입니다. OpenAI의 TTS API를 활용하여 정확하고 자연스러운 한국어 발음을 제공합니다.
+이 프로젝트는 **모든 한국어 한글 음절(11172개, 겹받침 포함)**에 대한 TTS(Text-to-Speech) 오디오 파일을 생성하는 웹 애플리케이션입니다. OpenAI의 TTS API를 활용하여 정확하고 자연스러운 한국어 발음을 제공합니다.
 
 ### 🎯 주요 기능
 
-- **📊 완전한 음절 생성**: 초성(19개) × 중성(21개) × 종성(28개, 겹받침 포함) = 11,172개 음절
+- **📊 완전한 음절 생성**: 초성(19개) × 중성(21개) × 종성(28개, 겹받침 포함) = 11172개 음절
 - **🎵 배치 처리**: 안정적인 대량 음성 파일 생성
 - **📈 실시간 진행률**: 생성 과정 모니터링 및 진행상황 확인
 - **🔊 개별 테스트**: 특정 음절의 즉시 음성 생성 및 재생
@@ -91,11 +91,11 @@ hangeul-syllables/
 
 ### 📝 Project Overview
 
-This project is a web application that generates **TTS (Text-to-Speech) audio files for all Korean Hangul syllables (11,172 total including complex final consonants)**. It leverages OpenAI's TTS API to provide accurate and natural Korean pronunciation.
+This project is a web application that generates **TTS (Text-to-Speech) audio files for all Korean Hangul syllables (11172 total including complex final consonants)**. It leverages OpenAI's TTS API to provide accurate and natural Korean pronunciation.
 
 ### 🎯 Key Features
 
-- **📊 Complete Syllable Generation**: Initial consonants (19) × Medial vowels (21) × Final consonants (28, including complex ones) = 11,172 syllables
+- **📊 Complete Syllable Generation**: Initial consonants (19) × Medial vowels (21) × Final consonants (28, including complex ones) = 11172 syllables
 - **🎵 Batch Processing**: Stable mass audio file generation
 - **📈 Real-time Progress**: Generation process monitoring and progress tracking
 - **🔊 Individual Testing**: Instant voice generation and playback for specific syllables
@@ -173,8 +173,8 @@ Hangul Syllable = Initial Consonant + Medial Vowel + Final Consonant (optional)
 중성 (Medial): ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ ㅐ ㅒ ㅔ ㅖ ㅘ ㅙ ㅚ ㅝ ㅞ ㅟ ㅢ (21개)
 종성 (Final): (없음) ㄱ ㄲ ㄱㅅ ㄴ ㄴㅈ ㄴㅎ ㄷ ㄹ ㄹㄱ ㄹㅁ ㄹㅂ ㄹㅅ ㄹㅌ ㄹㅍ ㄹㅎ ㅁ ㅂ ㅂㅅ ㅅ ㅆ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ (28개, 겹받침 포함)
 
-총 음절 수: 19 × 21 × 28 = 11,172개
-Total syllables: 19 × 21 × 28 = 11,172
+총 음절 수: 19 × 21 × 28 = 11172개
+Total syllables: 19 × 21 × 28 = 11172
 ```
 
 ### Complex Final Consonants (겹받침) | 복합 종성
@@ -203,7 +203,7 @@ Total syllables: 19 × 21 × 28 = 11,172
 
 ## ⏱️ Performance | 성능 정보
 
-- **예상 생성 시간**: 약 3-4시간 (11,172개 음절)
+- **예상 생성 시간**: 약 3-4시간 (11172개 음절)
 - **배치 크기**: 50개씩 처리
 - **API 지연**: 요청 간 100ms 대기
 - **총 비용**: OpenAI TTS API 사용량에 따라 결정
